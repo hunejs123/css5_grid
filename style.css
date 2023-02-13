@@ -1,0 +1,819 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding: 20px 0px;
+    background-color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.menu2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+}
+.menu3:hover{
+    color:blue;
+    font-size: 25px;
+}
+
+.banner{
+    background: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/main/image/01.jpg);
+    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+}
+.welcom{
+    display: grid;
+    grid-template-columns:100px 400px 300px;
+    grid-template-rows: minmax(60px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.welcom1{
+    grid-area: cc;
+    font-size: 30px;
+}
+.highlight {
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 12px 17px;
+    margin: 25px;
+    border-radius: 15px 15px 15px 15px;
+    border: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.highlight:hover{
+    color:green;
+    background: white;}
+
+
+.about{
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 100px 700px 100px;
+}
+.about0{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: antiquewhite;
+}
+.about1{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns:100px 400px 100px;
+    grid-template-rows: minmax(50px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+  
+}
+.about11{
+    grid-area: cc;
+    font-size: 20px;
+   
+}
+.about2{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns:100px 600px 100px;
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+   
+}
+.about21{
+    grid-area: cc;
+   
+}
+.Read{
+    color: white;
+    background: greenyellow;
+    padding: 12px 17px;
+    margin: 25px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Read:hover{
+    color:green;
+    background: white;
+    
+}
+
+.service{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/main/image/menu/10.jpg);
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 150px 700px 50px;
+    grid-template-columns: minmax(400px, auto);
+    grid-template-areas: 
+    "aa bb cc"
+    "dd dd dd"
+    "ee ee ee"
+    ;
+}
+.service1{
+    grid-area: bb;
+}
+.ser{
+    grid-area: dd;
+    display: grid;
+    grid-template-rows: minmax(10px, 100px);
+    grid-template-columns: repeat(5, 1fr);
+}
+.ser1{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns:minmax(10px, 100px);
+    grid-template-rows: minmax(10px, 100px);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.ser2{
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns:minmax(10px, 100px);
+    grid-template-rows: minmax(10px, 100px);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.ser3{
+    grid-column: 4/5;
+    display: grid;
+    grid-template-columns:minmax(10px, 100px);
+    grid-template-rows: minmax(10px, 100px);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.car{
+    grid-area: cc;
+    color: antiquewhite;
+}
+
+.area{
+    width: 100%;
+    height: 1100px;
+    display: grid;
+    grid-template-rows: 50px 900px 50px;
+}
+.area1{
+    grid-row: 2/3;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 150px 700px 10px;
+    grid-template-columns: minmax(400px, auto);
+    grid-template-areas: 
+    "aa bb cc"
+    "dd dd dd"
+    "ee ee ee"
+    ;
+}
+.area2{
+    grid-area: bb;
+}
+.OUR{
+    grid-area: dd;
+    display: grid;
+    grid-template-rows: 10px 1fr 1fr 1fr 10px;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    column-gap: 30px;
+}
+.raw1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw3{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw4{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw5{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw6{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw7{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw8{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+.raw9{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns:minmax(10px, auto);
+    grid-template-rows: minmax(10px, auto);
+    grid-template-areas:  
+    "aa aa aa"
+    "bb cc dd"
+    "ee ee ee"
+    ;
+}
+
+.Raw{
+    grid-area: cc;
+    width: 27%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ram{
+    grid-column: 1/2;
+}
+
+
+.time{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/main/image/09.jpg);
+    height: 500px;
+    width: 100%; 
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    color: white; 
+    display: grid;
+    grid-template-rows: 50px 700px 10px;
+    grid-template-columns: minmax(100px, auto);
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.open{
+    grid-area: dd;
+    text-align: center;
+}
+
+.gallery{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: 50px 700px 10px;
+    grid-template-columns: minmax(200px, auto);
+    grid-template-areas: 
+    "aa aa aa"
+    "dd dd dd"
+    "ee ee ee"
+    ;
+}
+.g-one{
+    grid-area: aa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.g-one-1{
+    grid-column: 2/3;
+    text-align: center;
+}
+.g-two{
+    grid-area: dd;
+    display: grid;
+    grid-template-rows: 50px 1fr 1fr 1fr  50px;
+    grid-template-columns:50px 1fr 1fr 1fr 1fr 20px;
+    row-gap: 10px;
+}
+.g1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.g2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: grid;
+}
+.g3{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: grid;
+}
+.g4{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    display: grid;
+}
+.g5{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+}
+.g6{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+}
+.g7{
+    grid-column: 4/5;
+    grid-row:3/4;
+    display: grid;
+}
+.g8{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    display: grid;
+}
+.g9{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: grid;
+}
+.g10{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: grid;
+}
+.g11{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    display: grid;
+}
+.g12{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    display: grid;
+}
+
+.blog{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/main/image/blog/01.jpg);
+    height: 1100px;
+    width: 100%; 
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: 50px 1fr 1fr  50px;
+    grid-template-columns:50px 1fr 1fr 1fr  20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.blogg2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.blogg3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: grid;
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    grid-template-rows: 10px 1fr 10px;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.blogg4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: grid;
+    border: 1px solid white;
+    grid-template-rows: 10px 1fr 10px;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.blogg5{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    border: 1px solid white;
+    grid-template-rows: 10px 1fr 10px;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.blogg6{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+    border: 1px solid white;
+    grid-template-rows: 10px 1fr 10px;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.blogg1{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    display: grid;
+    border: 1px solid white;
+    grid-template-rows: 10px 1fr 10px;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.blog2{
+    grid-area: dd;
+    text-align: center;
+}
+.blog3{
+    grid-area: dd;
+    display: grid;
+    text-align: center;
+    color: white;
+}
+
+.review{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-rows: minmax(10px, auto);
+    grid-template-columns: minmax(10px, auto);
+    grid-template-areas: 
+    "aa aa aa"
+    "dd dd dd"
+    "ee ee ee"
+    ;
+}
+.review0{
+    grid-area: aa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.review1{
+    grid-column: 2/3;
+    text-align: center;
+}
+.review2{
+    grid-area: dd;
+    display: grid;
+    grid-template-rows: 50px 1fr  50px;
+    grid-template-columns:50px 1fr 1fr 1fr 20px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.revieww3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: antiquewhite;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.revieww4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: antiquewhite;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.revieww5{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: antiquewhite;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-areas: 
+    "aa bb cc"
+    "aa dd cc"
+    "ee ee ee"
+    ;
+}
+.re1{
+    grid-area: dd;
+    display: grid;
+}
+
+.chef{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/main/image/chefs/04.jpg);
+    height: 1800px;
+    width: 100%;
+    background-attachment: fixed; 
+    display: grid;
+    grid-template-rows: 30px 1fr 10px;
+    grid-template-columns: minmax(10px, auto);
+    grid-template-areas: 
+    "aa aa aa"
+    "cc dd bb"
+    "ee ee ee"
+}
+.chef0{
+    grid-area: aa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.chef1{
+    grid-column: 2/3;
+    text-align: center;
+}
+.cheff1{
+    grid-area: dd;
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 10px;
+    grid-template-rows: 50px 1fr 1fr 1fr 10px ;
+    text-align: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.chef2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.chef3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+.chef4{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+.chef5{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.chef6{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.chef7{
+    grid-column: 3/4;
+    grid-row: 4/5;;
+    text-align: center;
+}
+.chefff{
+    grid-row: 2/3;
+}
+
+.contact{
+    height: 400px;
+    width: 100%; 
+    background-color: black;
+    display: grid;
+    grid-template-rows: 50px 300px 10px;
+    grid-template-columns: minmax(10px, auto);
+    grid-template-areas: 
+    "aa aa aa"
+    "cc dd bb"
+    "ee ee ee"
+}
+.contact1{
+    grid-area: aa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contact2{
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+}
+.contact21{
+    grid-area: dd;
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 10px;
+    grid-template-rows: 50px 1fr 1fr 1fr 10px ;
+    row-gap: 15px;
+}
+.contact3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.contact4{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.contact5{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.contact6{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.contact7{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.contact55{
+    height: 50px;
+    width: 150px; 
+    border-radius: 10%;
+    color: white;
+    background-color: aqua;
+} 
+.contact55:hover{
+    color:aqua;
+    background: white;
+} 
+
+.footer1{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/main/image/10.jpg);
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: 150px  1fr 20px;
+    grid-template-columns: 100px 1fr 1fr 1fr 10px ;
+    column-gap: 15px;
+}    
+.footer3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    color: white;
+}
+.footer4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+    color: white;
+}
+.footer5{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+    color: white;
+}
+
+.end{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    background-attachment: fixed;
+    display:grid;
+    grid-template-rows: 30px  1fr 20px;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px ;
+    column-gap: 15px;
+}
+.end1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+}
+.end2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+}
+.icon{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+    color: white;
+}
